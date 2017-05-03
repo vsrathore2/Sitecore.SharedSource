@@ -1,0 +1,87 @@
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Sitecore.Kernel.dll
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Lucene.Net.dll
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\ITHit.WebDAV.Server.dll
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\HtmlAgilityPack.dll
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Mvp.Xml.dll
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\ComponentArt.Web.UI.dll
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Sitecore.Zip.dll
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Sitecore.Logging.dll
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Sitecore.NVelocity.dll
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Newtonsoft.Json.dll
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\RadEditor.Net2.dll
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Telerik.Web.UI.dll
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Sitecore.Kernel.xml
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Lucene.Net.xml
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\HtmlAgilityPack.xml
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Newtonsoft.Json.xml
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Telerik.Web.UI.xml
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\obj\Debug\Sitecore.SharedSource.csprojResolveAssemblyReference.cache
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Sitecore.SharedSource.dll.config
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Sitecore.SharedSource.dll
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\bin\Sitecore.SharedSource.pdb
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\obj\Debug\Sitecore.SharedSource.dll
+C:\Nilesh\RnD Projects\Sitecore7\Sitecore7.SharedSource\obj\Debug\Sitecore.SharedSource.pdb
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.SharedSource.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.SharedSource.pdb
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Lucene.Net.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\ITHit.WebDAV.Server.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\HtmlAgilityPack.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Mvp.Xml.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\ComponentArt.Web.UI.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Zip.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Logging.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.NVelocity.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Newtonsoft.Json.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\RadEditor.Net2.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Telerik.Web.UI.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Kernel.xml
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Lucene.Net.xml
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\HtmlAgilityPack.xml
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Newtonsoft.Json.xml
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Telerik.Web.UI.xml
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\obj\Debug\Sitecore.SharedSource.csprojResolveAssemblyReference.cache
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\obj\Debug\Sitecore.SharedSource.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\obj\Debug\Sitecore.SharedSource.pdb
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Buckets.Client.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Buckets.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.ContentSearch.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Client.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.ContentSearch.Linq.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Analytics.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Stimulsoft.Report.WebDesign.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Stimulsoft.Report.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Stimulsoft.Report.Web.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Stimulsoft.Base.dll
+C:\NILESH\DTCM\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Client.xml
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.SharedSource.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.SharedSource.pdb
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Buckets.Client.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Buckets.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.ContentSearch.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Client.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.ContentSearch.Linq.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Analytics.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\HtmlAgilityPack.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Newtonsoft.Json.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Logging.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Lucene.Net.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\ITHit.WebDAV.Server.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Mvp.Xml.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\ComponentArt.Web.UI.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Zip.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.NVelocity.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\RadEditor.Net2.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Telerik.Web.UI.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Stimulsoft.Report.WebDesign.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Stimulsoft.Report.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Stimulsoft.Report.Web.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Stimulsoft.Base.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Kernel.xml
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Sitecore.Client.xml
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\HtmlAgilityPack.xml
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Newtonsoft.Json.xml
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Lucene.Net.xml
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\bin\Telerik.Web.UI.xml
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\obj\Debug\Sitecore.SharedSource.csprojResolveAssemblyReference.cache
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\obj\Debug\Sitecore.SharedSource.dll
+C:\Projects\Sitecore7.SharedSource\Sitecore7.SharedSource\obj\Debug\Sitecore.SharedSource.pdb

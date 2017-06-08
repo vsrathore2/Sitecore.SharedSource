@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.SharedSource", "Sitecore.SharedSource.csproj", "{E02D3238-1DF3-4E44-9D37-A4EAD902D787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyCall", "..\DailyCall\DailyCall.csproj", "{D86F6A76-72B8-49C4-8BC1-C48E62B36C66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{E02D3238-1DF3-4E44-9D37-A4EAD902D787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E02D3238-1DF3-4E44-9D37-A4EAD902D787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E02D3238-1DF3-4E44-9D37-A4EAD902D787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86F6A76-72B8-49C4-8BC1-C48E62B36C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86F6A76-72B8-49C4-8BC1-C48E62B36C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86F6A76-72B8-49C4-8BC1-C48E62B36C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86F6A76-72B8-49C4-8BC1-C48E62B36C66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

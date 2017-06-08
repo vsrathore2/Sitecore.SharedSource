@@ -88,29 +88,32 @@
                     tb.Columns.Add(language.Name);
                 }
 
-                foreach (Item childItem in parent.GetChildren())
+                if (parent != null)
                 {
-                    DataRow itemRow = tb.NewRow();
-                    itemRow[0] = childItem.ID;
-                    itemRow[1] = childItem.Paths.Path;
-                    foreach (var itemLanguage in childItem.Languages)
+                    foreach (Item childItem in parent.Axes.GetDescendants())
                     {
-                        var item = db.GetItem(childItem.ID, itemLanguage);
-                        if (item.Versions.Count > 0)
+                        DataRow itemRow = tb.NewRow();
+                        itemRow[0] = childItem.ID;
+                        itemRow[1] = childItem.Paths.Path;
+                        foreach (var itemLanguage in childItem.Languages)
                         {
-                            if (tb.Columns[itemLanguage.Name] != null)
-                                itemRow[tb.Columns[itemLanguage.Name]] = "1";
-                            //itemRow[tb.Columns[item.Language.Name]] = "1";
+                            var item = db.GetItem(childItem.ID, itemLanguage);
+                            if (item.Versions.Count > 0)
+                            {
+                                if (tb.Columns[itemLanguage.Name] != null)
+                                    itemRow[tb.Columns[itemLanguage.Name]] = "1";
+                                //itemRow[tb.Columns[item.Language.Name]] = "1";
+                            }
+                            else
+                            {
+                                if (tb.Columns[itemLanguage.Name] != null)
+                                    itemRow[tb.Columns[itemLanguage.Name]] = "0";
+                                //itemRow[tb.Columns[item.Language.Name]] = "0";
+                            }
                         }
-                        else
-                        {
-                            if (tb.Columns[itemLanguage.Name] != null)
-                                itemRow[tb.Columns[itemLanguage.Name]] = "0";
-                            //itemRow[tb.Columns[item.Language.Name]] = "0";
-                        }
-                    }
 
-                    tb.Rows.Add(itemRow);
+                        tb.Rows.Add(itemRow);
+                    }
                 }
 
                 lblCount.Text = "Total items: " + tb.Rows.Count.ToString();

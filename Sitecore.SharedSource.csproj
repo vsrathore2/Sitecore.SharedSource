@@ -82,7 +82,11 @@
     <Content Include="FieldCopier-Language.aspx" />
     <Content Include="FieldCopier.aspx" />
     <Content Include="GenericReport.aspx" />
+    <Content Include="BulkLanguageReport.aspx" />
+    <Content Include="GetUpdateData.aspx" />
+    <Content Include="LanguageReportV2.aspx" />
     <Content Include="LanguageReport.aspx" />
+    <Content Include="PageCount.aspx" />
     <Content Include="TempUpdate.aspx" />
     <Content Include="UnlockItem.aspx" />
     <Content Include="GetKeywordReferenceItems.aspx" />

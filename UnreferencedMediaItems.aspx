@@ -376,7 +376,11 @@
             //    }
             //}
             //Count of total media items vs unreferenced media items
-            lblTotalCount.Text = "Total Media item count:" + (TotalMediaCount - 1);
+
+            if (TotalMediaCount > nMaxCount)
+                TotalMediaCount = TotalMediaCount - 1;
+
+            lblTotalCount.Text = "Total Media item count:" + (TotalMediaCount);
             lblTotalCount.Text += "<br/> Processed media item Count:" + ProcessedMediaCount;
             lblTotalCount.Text += "<br/> Unreferenced media item Count:" + count;
             lblTotalCount.Text += "<br/>";

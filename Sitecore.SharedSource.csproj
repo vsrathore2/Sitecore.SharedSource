@@ -43,6 +43,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\inetpub\wwwroot\sc70rev130918\Website\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Buckets">
       <HintPath>..\..\..\..\inetpub\wwwroot\dtcmdev\website\bin\Sitecore.Buckets.dll</HintPath>
     </Reference>
@@ -54,6 +58,9 @@
     </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\..\..\..\inetpub\wwwroot\sc70rev130918\Website\bin\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Zip">
+      <HintPath>..\..\..\..\inetpub\wwwroot\sc70rev130918\Website\bin\Sitecore.Zip.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
@@ -73,24 +80,53 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Automation-Dashboard.aspx" />
+    <Content Include="bootstrap\css\bootstrap-theme.css" />
+    <Content Include="bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap\js\npm.js" />
+    <Content Include="BulkDatasourceUpdate.aspx" />
     <Content Include="BulkDelete.aspx" />
+    <Content Include="BulkMediaExport.aspx" />
+    <Content Include="BulkMediaImport.aspx" />
     <Content Include="BulkPublish-cn.aspx" />
     <Content Include="BulkPublish.aspx" />
     <Content Include="BulkTemplateChange.aspx" />
     <Content Include="BulkUpdate.aspx" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\style.css" />
+    <Content Include="DeleteMultipleItems.aspx" />
     <Content Include="ExportItem.aspx" />
     <Content Include="FieldCopier-Language.aspx" />
     <Content Include="FieldCopier.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="GenericReport.aspx" />
     <Content Include="BulkLanguageReport.aspx" />
+    <Content Include="GetFieldValue.aspx" />
+    <Content Include="GetReferenceItemsV2.aspx" />
     <Content Include="GetUpdateData.aspx" />
+    <Content Include="images\background.jpg" />
+    <Content Include="js\jquery-2.1.1.min.js" />
+    <Content Include="js\jquery.appear.js" />
+    <Content Include="js\modernizr.custom.js" />
+    <Content Include="js\script.js" />
     <Content Include="LanguageReportV2.aspx" />
     <Content Include="LanguageReport.aspx" />
+    <Content Include="MoveMultipleItems.aspx" />
     <Content Include="PageCount.aspx" />
+    <Content Include="PagesUpdated.aspx" />
     <Content Include="TempUpdate.aspx" />
     <Content Include="UnlockItem.aspx" />
     <Content Include="GetKeywordReferenceItems.aspx" />
     <Content Include="UnreferencedMediaItems.aspx" />
+    <Content Include="UpdateFieldValue.aspx" />
+    <Content Include="ImportHotels.aspx" />
+    <Content Include="UpdateHotels.aspx" />
     <Content Include="UserReport.aspx" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -105,6 +141,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="bootstrap\css\bootstrap.css.map" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\dtcmdev.pubxml" />
   </ItemGroup>
   <PropertyGroup>

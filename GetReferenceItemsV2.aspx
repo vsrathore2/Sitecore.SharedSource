@@ -65,12 +65,13 @@
             base.OnLoad(e);
             if (Sitecore.Context.User.IsAuthenticated == false)
             {
-                Response.Redirect("login.aspx?returnUrl=GetReferenceItems.aspx");
+                Response.Redirect("login.aspx?returnUrl=GetReferenceItemsv2.aspx");
             }
         }
 
         protected void getReferenceItems_Click(object sender, EventArgs e)
         {
+            int i = 0;
             try
             {
                 Database db = Database.GetDatabase("master");
@@ -81,30 +82,48 @@
                     var links = Globals.LinkDatabase.GetReferrers(item);
                     if (links != null)
                     {
-                        var linkedItems = links.Select(ii => ii.GetSourceItem()).Where(i => i != null).GroupBy(i => i.ID).Select(i => new { SCID = i.Key, Items = i.ToList() });
-                        StringBuilder sb = new StringBuilder();
-                        sb.Append("<table><tr><th>Path</th><th>ID</th></tr>");
 
-                        foreach (var linkedItem in linkedItems)
+                        StringBuilder sb = new StringBuilder();
+                        sb.Append("<table><tr><th>Path</th><th>ID</th><th>Language</th><th>Field Name</th><th>Database</th></tr>");
+
+                        foreach (var linkedItem in links)
                         {
                             sb.Append("<tr>");
-                            sb.Append("<td>" + linkedItem.Items.FirstOrDefault().Paths.FullPath + "</td>");
-                            sb.Append("<td width=\"33%\">" + linkedItem.SCID.ToString() + "</td>");
+                            string name = string.Empty;
+                            var sourceItem = linkedItem.GetSourceItem();
+                            if (sourceItem != null)
+                            {
+                                sb.Append("<td>" + sourceItem.Paths.FullPath + "</td>");
+                                name = sourceItem.Name;
+                            }
+                            sb.Append("<td width=\"25%\">" + linkedItem.SourceItemID.ToString() + "</td>");
+                            sb.Append("<td width=\"3%\">" + linkedItem.SourceItemLanguage.Name + "</td>");
+                            sb.Append("<td>" + name + "</td>");
+                            sb.Append("<td>" + linkedItem.SourceDatabaseName + "</td>");
                             sb.Append("</tr>");
+
 
                         }
                         sb.Append("</table>");
 
+                        //lblMessage.Text += string.Join("<td>", itemLinksPath.ToArray());
+                        //lblMessage.Text += "<br><br>ItemIDs:<br>";
+                        //lblMessage.Text += string.Join("<br>", linkedItems.Select(ii => ii.ID.ToString()).ToArray());
                         lblMessage.Text = sb.ToString();
                         return;
                     }
                 }
+                //if (i == 0)
+                //{
+                //    lblMessage.Text = "Locked total " + i + " item(s)";
+                //}
             }
             catch (Exception ex)
             {
                 lblMessage.Text = ex.ToString();
             }
         }
+
     </script>
 </head>
 <body>

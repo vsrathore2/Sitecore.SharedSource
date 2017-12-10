@@ -76,6 +76,7 @@
 
         protected void btnUploadAndUpdate_Click(object sender, EventArgs e)
         {
+            StringBuilder sb = new StringBuilder();
             if (uploadedFile.HasFile)
             {
                 string spath = Server.MapPath("~/temp");
@@ -97,7 +98,11 @@
                         {
                             Item item = db.GetItem(row[0].ToString(), lang);
                             string replaceComma = row[i].ToString().Replace("#123#", ",");
-                            UpdateItemFields(item, dt.Columns[i].ColumnName, replaceComma, txtTemplateName.Text);
+                            if (item != null)
+                            {
+                                UpdateItemFields(item, dt.Columns[i].ColumnName, replaceComma, txtTemplateName.Text, ref sb);
+                            }                          
+
                         }
                     }
                     else
@@ -111,6 +116,8 @@
                     }
                 }
             }
+
+            lblInfo.Text = sb.ToString();
         }
 
 
@@ -151,7 +158,7 @@
             }
         }
 
-        private void UpdateItemFields(Item item, string fieldName, string newValue, string templateName)
+        private void UpdateItemFields(Item item, string fieldName, string newValue, string templateName, ref StringBuilder sb)
         {
             if (item != null)
             {
@@ -172,6 +179,11 @@
                                     Item imageItem = db.GetItem(newValue);
                                     imageField.MediaID = imageItem.ID;
                                 }
+
+                            }
+                            catch (Exception ex)
+                            {
+                                sb.AppendLine(string.Format("Error in Field {0} for Item {1} ID <br />", fieldName, item.ID.ToString()));
                             }
                             finally
                             {
@@ -180,7 +192,15 @@
                             }
                         }
                     }
+                    else
+                    {
+                        sb.AppendLine(string.Format("Field {0} is null for Item {1} ID <br />", fieldName, item.ID.ToString()));
+                    }
                 }
+            }
+            else
+            {
+                sb.AppendLine("Item is null <br />");
             }
         }
 
@@ -219,8 +239,10 @@
         <table class="table-style-three">
             <tr>
                 <td>Parent Item Path:
+                   
                     <asp:TextBox ID="txtParentPath" runat="server" Width="500px"></asp:TextBox></td>
                 <td>Template Name:
+                   
                     <asp:TextBox ID="txtTemplateName" runat="server"></asp:TextBox></td>
                 <td>Language:<asp:TextBox ID="txtLang" Text="en" runat="server"></asp:TextBox></td>
                 <td>Database:<asp:DropDownList ID="drpDB" runat="server">
@@ -235,7 +257,8 @@
                 <td colspan="4">
                     <asp:Button ID="btnUpload" OnClick="btnUploadAndUpdate_Click" Text="Upload and Update" runat="server" />
                     <mark>Please replace "," with #123# in CSV file before upload.<br />
-                    </mark><br />
+                    </mark>
+                    <br />
                     Checks<br />
                     <ol>
                         <li>Is CSV contains ID?</li>
@@ -246,6 +269,11 @@
                     <br />
                 </td>
 
+            </tr>
+            <tr>
+                <td>
+                    <asp:Label ID="lblInfo" runat="server"></asp:Label>
+                </td>
             </tr>
         </table>
     </form>
